@@ -1,4 +1,4 @@
-# 김지환 · 개인 웹사이트 (자료구조와 알고리즘 Lab 7)
+# ion202020 · Undo 실험실 (자료구조와 알고리즘 Lab 7)
 
 빌드 과정 없는 정적 사이트입니다. `index.html`을 더블클릭하면 바로 열립니다.
 
@@ -28,7 +28,6 @@ js/app.js      Undo/Redo 동작, 화면 갱신, 성능 측정
 
 ## 수정할 곳
 
-- 소개·연구 글: `index.html`의 `hero`, `research` 섹션
 - GitHub 링크: `js/app.js` 맨 위 `SITE.githubUsername`에 아이디 입력
 
 ## 배포

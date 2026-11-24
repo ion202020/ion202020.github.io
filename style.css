@@ -209,6 +209,17 @@ nav a:hover { color: var(--ink); }
 .footer-inner p { margin: 0; }
 .links { list-style: none; margin: 0; padding: 0; text-align: right; }
 
+/* ===== 실험실만 있는 페이지 (body.solo) ===== */
+.solo { background: var(--room); color: var(--room-ink); }
+.solo .site-header { background: color-mix(in srgb, var(--room) 88%, transparent); border-bottom-color: var(--room-line); }
+.solo .brand { font-family: var(--mono); font-weight: 600; letter-spacing: 0; }
+.solo nav a { color: var(--room-ink-2); }
+.solo nav a:hover { color: var(--room-ink); }
+.solo .lab { padding-top: 64px; }
+.solo .site-footer { border-top: 1px solid var(--room-line); }
+.solo .muted { color: var(--room-ink-2); }
+.solo .links a { color: var(--scan); }
+
 /* ===== 반응형 ===== */
 @media (max-width: 900px) {
   .lab-grid { grid-template-columns: 1fr; }
